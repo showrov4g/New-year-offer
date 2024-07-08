@@ -430,16 +430,16 @@ main{
 footer {
     background-color: rgb(7, 2, 17);
     ;
+    padding: 10px 0px 50px 0px;
 }
 footer .contact{
-    width: 1185px;
     display: flex;
     justify-content: space-between;
     margin:auto;
     padding: 100px;
 }
 
-footer .contact h5 {
+footer .contact h5 , .copyright-section h5, a{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 24px;
@@ -447,7 +447,23 @@ footer .contact h5 {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+    text-decoration: none;
 }
 footer hr{
     border: 1px solid rgba(255, 255, 255, 0.15);
+    width: 1185px;
+    margin: auto;
 }
+footer .social-icon{
+    text-align: center;
+}
+footer .social-icon img{
+    margin: 20px 10px;
+}
+footer .copyright-section{ 
+    width: 1185px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* design finished */
