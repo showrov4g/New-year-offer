@@ -183,25 +183,26 @@ main{
 
 /* details section style  */
 /* coming soon style  */
-.conning-soon {
+.comming-soon {
     display: flex;
     justify-content: space-between;
     margin: 100px auto;
 }
 
-.conning-soon .contnet {
+.comming-soon .contnet {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 70px;
+    margin-left: 30px;
 }
 
-.conning-soon .contnet h5 {
+.comming-soon .contnet h5 {
     text-align: left;
 }
 
-.conning-soon .contnet h2 {
+.comming-soon .contnet h2 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
     font-size: 48px;
@@ -212,8 +213,8 @@ main{
     text-transform: capitalize;
 }
 
-.conning-soon .contnet p,
-.conning-soon .year p {
+.comming-soon .contnet p,
+.comming-soon .year p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
@@ -223,7 +224,7 @@ main{
     text-align: left;
 }
 
-.conning-soon .image {
+.comming-soon .image {
     width: 463px;
     height: 463px;
     border: 15px solid red;
@@ -232,18 +233,18 @@ main{
     padding: 30px;
 }
 
-.conning-soon .image img {
+.comming-soon .image img {
     width: 100%;
     margin: auto;
 }
 
-.conning-soon .year {
+.comming-soon .year {
     width: 30%;
     margin-top: 70px;
     padding-left: 50px;
 }
 
-.conning-soon .year h1 {
+.comming-soon .year h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 48px;
