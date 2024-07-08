@@ -52,7 +52,7 @@ main{
 
 /* hero section design  */
 .hero {
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/Banner\ Image.png);
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -112,7 +112,7 @@ main{
 /* offer section design end  */
 /* welcome section style */
 .welcome {
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/Vectorrr.png);
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -259,7 +259,7 @@ main{
 .holiday {
     width: 1320px;
     height: 986.07px;
-    background-image: url(/images/Rectangle\ 2.png);
+    background-image: url(images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
