@@ -7,8 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+main{
     max-width: 1320px;
     margin: 30px auto;
 }
@@ -425,4 +424,30 @@ body {
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
+}
+
+/* footer section design  */
+footer {
+    background-color: rgb(7, 2, 17);
+    ;
+}
+footer .contact{
+    width: 1185px;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 100px;
+}
+
+footer .contact h5 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
