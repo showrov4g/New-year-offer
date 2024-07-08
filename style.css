@@ -1,31 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 /* font */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Merriweather", serif;
+
+body {
     max-width: 1320px;
     margin: 30px auto;
 }
+
 /* global design  */
-.sub-title{
+.sub-title {
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+    font-family: "Merriweather", serif;
 }
+
+.offer-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 /* global design  */
 
 /* hero section design  */
-.hero{
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(/images/Banner\ Image.png);
+.hero {
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,13 +47,51 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
 }
-.hero .title{
+
+.hero .title {
     color: rgb(255, 255, 255);
-    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     letter-spacing: 0%;
     text-align: center;
+    font-family: "Merriweather", serif;
 }
+
+/* hero section design close */
+
+/* offer section design close  */
+.offer {
+    text-align: center;
+    width: 800px;
+    margin: 70px auto;
+}
+
+.offer .offer-price {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.offer img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* offer section design end  */
+
