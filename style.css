@@ -89,9 +89,65 @@ body {
     letter-spacing: 0%;
     text-align: center;
 }
-.offer img{
+
+.offer img {
     width: 100%;
     margin-top: 30px;
 }
-/* offer section design end  */
 
+/* offer section design end  */
+/* welcome section style */
+.welcome {
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    padding: 70px 0;
+}
+
+.welcome .welcome-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.welcome .welcome-container h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.welcome .welcome-container P {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.welcome .welcome-container a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.welcome .image img{
+    width: 100%;
+}
