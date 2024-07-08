@@ -34,6 +34,21 @@ body {
     text-align: center;
 }
 
+.btn {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 32px;
+}
+
 /* global design  */
 
 /* hero section design  */
@@ -107,6 +122,7 @@ body {
     align-items: center;
     border-radius: 20px;
     padding: 70px 0;
+    margin: 100px 0;
 }
 
 .welcome .welcome-container {
@@ -148,6 +164,45 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-.welcome .image img{
+
+.welcome .image img {
     width: 100%;
+}
+
+/* welcome section finished */
+
+/* details section style  */
+.details {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    padding: 100px 385px 110px 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* details section style  */
+/* coming soon style  */
+.conning-soon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conning-soon .contnet{
+    width: 30%;
+}
+.conning-soon .image{
+    width: 463px;
+    height: 463px;
+    border: 15px solid red;
+    border-radius: 50%;
+    display: flex;
+    padding: 30px;
+}
+.conning-soon .image img{
+    width: 100%;
+    margin: auto;
+}
+.conning-soon .year{
+    width: 30%;
 }
